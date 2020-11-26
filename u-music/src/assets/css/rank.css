@@ -1,0 +1,91 @@
+
+.rank .ralogo{
+    /* width: 100%; */
+    height:2.3rem;
+    background: url(../img/rank.jpg)no-repeat;
+    background-size: contain;
+    padding:25px 0 0 20px;
+}
+.rank .ralogo .hotrank{
+    background: url(../img/sgpaly.png) no-repeat;
+    background-size: 166px 97px;
+    width: 142px;
+    height: 67px;
+    background-position: -24px -30px;
+}
+.rank .ralogo .hottime{
+    margin-top: 10px;
+    color: hsla(0,0%,100%,.8);
+    font-size: 12px;
+}
+
+
+.sglist .ranking{
+   width: .8rem; 
+   text-align: center;
+   font-size: 17px;
+   color: #df3436;
+}
+.sglist .rankingd{
+   width: .8rem; 
+   text-align: center;
+   font-size: 17px;
+   color: #999;
+}
+
+.rank .sglist li{
+    display: flex;
+    color: #333;
+    align-items: center;
+    /* height: 55px; */
+    /* line-height: 55px; */
+    justify-content: space-between;
+}
+.rank .sglist li .sgchlf{
+    padding: 6px 0;
+    /* width: 100%; */
+}
+.rank .sglist .sgchlf .sgtitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: normal;
+    font-size: 17px;
+    height: .5rem;
+    line-height:.5rem ;
+}
+.rank .sglist .sgchlf .sgname{
+    font-size: 12px;
+    height: .36rem;
+    line-height:.36rem;
+    color: #888;
+}
+.rank .sglist .sgchlf .sgname i{
+    background: url(../img/sgpaly.png) no-repeat;
+    background-size: 166px 97px;
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-right: 4px;
+}
+.rank .sglist .sgchfr{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+}
+.rank .sglist .sgchfr span{
+    background: url(../img/sgpaly.png) no-repeat ;
+    background-size: 166px 97px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-position: -24px 0;
+}
+.rank .sglist .borBtm{
+    border-bottom: 1px solid #ccc;
+}
+.rank .sglist .borBtm{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

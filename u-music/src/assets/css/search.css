@@ -1,0 +1,224 @@
+.search{
+    background:#fcfcfd ;
+}
+
+.form{
+    padding: 15px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.searchipt{
+    position: relative;
+}
+.form input{
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    width: 100%;
+    height: .6rem;
+    background: #ebecec;
+    padding: 0 30px;
+
+}
+.form .seachi{
+    position: absolute;
+    left: 0;
+    top: 9px;
+    margin: 0 8px;
+    vertical-align: middle;
+    width: 13px;
+    height: 13px;
+    background: url(../img/search.png);
+    background-size: 13px;
+}
+input[type=search]::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 38px;
+    text-align: center;
+    
+}
+
+.close i.block{
+    display: inline-block;
+    width: 15px;
+    height:15px ;
+    background:  url(../img/close.png);
+    background-size: 15px;
+}
+.close i.none{
+    display: none;
+}
+
+
+.search .hotlist{
+    padding: 15px 10px 0;
+}
+.search .none{
+    display: none;
+}
+.search .hotlist h2{
+    font-size: 12px;
+    line-height: 12px;
+    color: #666;
+}
+
+.search .hotname{
+    margin: 10px 0 7px;
+}
+
+.search .hotname li{
+    display: inline-block;
+    height: 32px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    padding: 0 14px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.search .searchlist h2{
+    height: 50px;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    line-height: 50px;
+    color: #507daf;
+    border-bottom: 1px solid #ccc;
+}
+.search .searchlist li{
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 45px;
+    padding-left: 10px;
+}
+
+.search .searchlist li i{
+    display: inline-block;
+    background: url(../img/search.png);
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+    margin-right: 7px;
+}
+.search .searchlist li span{
+    flex: 1;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 15px;
+    line-height: 45px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+.search .sginfolist h2{
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+}
+.search .sginfolist .sgheader{
+    display: flex;
+    align-items: center;
+    height: 66px;
+    margin-left: 10px;
+    padding: 8px 10px 8px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.search .sginfolist .sgheader img{
+    width: 1rem;
+    height: 1rem;
+}
+.search .sginfolist .sgheader i{
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 10px;
+    width: 12px;
+    height: 14px;
+    background: url(../img/sglist.jpg);
+    background-size: 10px;
+}
+.search .sginfolist .sgheader .sgheadercton{
+    width: 100%;
+}
+.search  .sgheadercton .title{
+    font-size: 17px;
+    line-height: 30px;
+    color: #333;
+}
+.search .sgheadercton .title span{
+    color: #507daf;
+}
+.search .sgheadercton .name{
+    font-size: 12px;
+    line-height: 15px;
+    color: #999;
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+
+
+.search .sglist li{
+    display: flex;
+    color: #333;
+    padding-left: 10px;
+    align-items: center;
+    /* height: 55px; */
+    /* line-height: 55px; */
+    justify-content: space-between;
+}
+.search .sglist li .sgchlf{
+    padding: 6px 0;
+}
+.search .sglist .sgchlf .sgtitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: normal;
+    font-size: 17px;
+    height: .5rem;
+    line-height:.5rem ;
+}
+.search .sglist .sgchlf .sgname{
+    font-size: 12px;
+    height: .36rem;
+    line-height:.36rem;
+    color: #888;
+}
+.search .sglist .sgchlf .sgname i{
+    background: url(../img/sgpaly.png) no-repeat;
+    background-size: 166px 97px;
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-right: 4px;
+}
+.search .sglist .sgchfr{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+}
+.search .sglist .sgchfr span{
+    background: url(../img/sgpaly.png) no-repeat ;
+    background-size: 166px 97px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-position: -24px 0;
+}

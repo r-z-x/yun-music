@@ -1,0 +1,41 @@
+
+.index .header{
+    height: 1.62rem;
+    background: #d43c33;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.index .header img{
+    width:2.7rem;
+}
+.index .header .load{
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    background: #fff;
+    color: #d43c33;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+.index .navBar{
+    display: flex;
+    height: .75rem;
+    line-height: .75rem;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-around
+}
+.index .navBar a{
+    text-align: center;
+    color: #333;
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+.index .navBar a.active{
+    color: #dd001b;
+    border-bottom: 2px solid #dd001b;
+}
